@@ -43,7 +43,7 @@ public class QuestionDao {
                     System.out.println("adios ganaste: " + money + "puntos");
 
                 }
-                break;
+                 break;
 
             case "D":
                 System.out.println("Respuesta incorrecta");

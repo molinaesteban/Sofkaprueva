@@ -1,4 +1,4 @@
-import com.sun.tools.jdeprscan.scan.Scan;
+
 import player.Player;
 import player.PlayerDao;
 import questions.QuestionDao;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class TestGame {
+public class TestGame
     public static void main(String[] args) {
 
 

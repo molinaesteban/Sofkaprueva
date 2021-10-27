@@ -28,10 +28,13 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
+
                 break;
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "C":
                 System.out.println("Respuesta correcta");
@@ -41,6 +44,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
 
                 }
                  break;
@@ -48,6 +53,7 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             default:
                 System.out.println("opcion incorrecta");
@@ -72,10 +78,12 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "C":
                 System.out.println("Respuesta correcta");
@@ -86,15 +94,19 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
 
                 break;
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -121,24 +133,30 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
 
                 break;
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
 
                 break;
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -159,15 +177,17 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
             case "D":
                 System.out.println("Respuesta correcta");
@@ -178,6 +198,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
 
                 break;
@@ -185,6 +207,7 @@ public class QuestionDao {
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
 
     }
@@ -217,6 +240,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -224,15 +249,17 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
 
 
@@ -255,11 +282,13 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
 
                 break;
 
@@ -273,6 +302,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -280,10 +311,12 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -304,12 +337,13 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
@@ -322,6 +356,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -329,10 +365,12 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
 
     }
@@ -353,18 +391,20 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "C":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -377,6 +417,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -384,6 +426,7 @@ public class QuestionDao {
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -403,18 +446,20 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
 
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
@@ -427,12 +472,15 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -454,18 +502,20 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
 
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
@@ -478,12 +528,15 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -509,6 +562,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -517,12 +572,14 @@ public class QuestionDao {
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
 
                 break;
 
@@ -530,10 +587,12 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
     public static void Question12(){
@@ -558,6 +617,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -566,6 +627,7 @@ public class QuestionDao {
 
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -574,17 +636,19 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
     public static void Question13(){
@@ -603,11 +667,13 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
 
                 break;
 
@@ -620,6 +686,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -629,10 +697,12 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
     public static void Question14(){
@@ -658,6 +728,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -666,6 +738,7 @@ public class QuestionDao {
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -673,17 +746,19 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
     public static void Question15(){
@@ -702,6 +777,7 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
@@ -714,6 +790,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -721,19 +799,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -754,6 +834,7 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
@@ -766,6 +847,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -773,19 +856,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -811,6 +896,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -820,25 +907,28 @@ public class QuestionDao {
 
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -858,13 +948,14 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
 
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
@@ -877,6 +968,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -886,12 +979,14 @@ public class QuestionDao {
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -911,6 +1006,7 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
@@ -923,6 +1019,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -930,19 +1028,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -968,6 +1068,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -976,6 +1078,7 @@ public class QuestionDao {
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -983,19 +1086,22 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
+
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -1015,11 +1121,13 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -1027,7 +1135,7 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
@@ -1041,15 +1149,14 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
-
-
-
-
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -1069,6 +1176,7 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
@@ -1081,6 +1189,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -1088,19 +1198,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -1120,16 +1232,14 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
-
-
-
 
             case "C":
                 System.out.println("Respuesta correcta");
@@ -1140,21 +1250,21 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
-
-
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
-
-
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -1174,6 +1284,7 @@ public class QuestionDao {
             case "A":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
             case "B":
@@ -1186,6 +1297,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -1193,19 +1306,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
@@ -1231,6 +1346,8 @@ public class QuestionDao {
                 String answer = read.nextLine();
                 if (answer.equalsIgnoreCase("si")) {
                     System.out.println("adios ganaste: " + money + "puntos");
+                    money=0;
+                    System.exit(0);
                 }
                 break;
 
@@ -1239,6 +1356,7 @@ public class QuestionDao {
             case "B":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
@@ -1247,19 +1365,21 @@ public class QuestionDao {
             case "C":
                 System.out.println("Respuesta incorreta");
                 System.out.println("puntos obtenidos: " + money);
-
+                System.exit(0);
                 break;
 
 
             case "D":
                 System.out.println("Respuesta incorrecta");
                 System.out.println("puntos obtenidos: " + money);
+                System.exit(0);
                 break;
 
 
 
             default:
                 System.out.println("opcion incorrecta");
+                System.exit(0);
         }
     }
 
